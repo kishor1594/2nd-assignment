@@ -1,0 +1,117 @@
+
+
+/* nav */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 200px;
+
+
+}
+.img{
+    display: flex;
+}
+.ulall{
+    display: flex;
+}
+.ulall{
+    font-size: 20px;
+}
+.btn1{
+    align-items: center;
+    background-color: orange;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+/* banner */
+
+.bannerno1{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+    gap: 50px;
+}
+.text h1{
+    font-weight: bold;
+    font-size: 56px;
+}
+.text p{
+    font-size: 20px;
+}
+.btn2{
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+
+/* Standard Curriculum */
+
+.Standard_Curriculum{
+    background-image: url(assets/bg.png);
+}
+.Standard_Curriculum h1{
+    font-size: 46px;
+    text-align: center;
+    padding: 20px;
+}
+.cardbox{
+    display: flex;
+    margin: 0px 200px;
+    gap: 30px;
+}
+
+.card{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px;
+}
+
+.card1{
+    background: linear-gradient(to bottom, #c6efff 0%, #ffffff 20%);
+}
+.card1 h5{
+    color: #64C8FF;
+}
+.card2{
+    background: linear-gradient(to bottom, #FFF4DC 0%, #ffffff 20%);
+}
+.card2 h5{
+    color: #64C8FF;
+}
+.card3{
+    background: linear-gradient(to bottom, #F2E8FF 0%, #ffffff 20%);
+}
+.card2 h5{
+    color: #64C8FF;
+}
+.ero{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px;
+}
+.ero1{
+    width: 150px;
+}
+
+/* Our Stories */
+
+.Our_Stories{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+}
+
+.stori{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
